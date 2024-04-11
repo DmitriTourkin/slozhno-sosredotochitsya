@@ -1,5 +1,123 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  font-family: var(--main-font-family);
+  background-color: var(--page-background-color);
 }
+
+.header.decorated-zone {
+  background-image: var(--head-background-image);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: fit-content;
+}
+
+/*Header*/
+
+.decorated-zone {
+  display: grid;
+  grid-template-areas:
+    "decorative-rec-header"
+    "theme-change"
+    "header-title"
+    "header-text"
+    "decore-rec-foot"
+}
+
+.recording {
+  display: block;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.recording.head {
+  border-top: 1px solid var(--navigation-button-color);
+  border-right: 1px solid var(--navigation-button-color);
+}
+
+.recording.head::before {
+  content: var(--recording-text-visibility);
+  margin-right: 25px;
+  color: var(--accent-color);
+}
+
+.recording.foot {
+  border-bottom: 1px solid var(--navigation-button-color);
+  border-left: 1px solid var(--navigation-button-color);
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+  list-style: none;
+}
+
+.header__theme-menu-button {
+  border: none;
+  color: var(--navigation-button-color);
+  font-family: inherit;
+  font-size: 18px;
+  text-transform: lowercase;
+  background-color: transparent;
+  min-width: 70px;
+  min-height: 26px;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--navigation-button-color);
+}
+
+.title-decor {
+  color: var(--main-title-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 95.7px;
+  text-transform: lowercase;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header-text {
+  display: block;
+  color: var(--section-title-color);
+  background-color: var(--accent-color);
+  font-weight: var(--section-title-weight);
+  line-height: 23.4px;
+  font-size: 18px;
+}
+
+/*Main*/
+.list-style-off {
+  list-style: none;
+}
+
+.article-card {
+  padding: none;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: var(--section-title-weight);
+  color: var(--accent-color);
+}
+
+.article-title {
+  color: var(--section-title-color);
+  background-color: var(--accent-color);
+}
+
+.tip-style {
+  font-weight: normal;
+  line-height: 23.4px;
+}
+
+.article-text {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+
