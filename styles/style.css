@@ -12,9 +12,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: fit-content;
+  height: 100vh;
 }
 
 /*Header*/
+
+.header {
+  position: relative;
+  overflow: hidden;
+}
 
 .decorated-zone {
   display: grid;
@@ -37,11 +43,12 @@
 .recording.head {
   border-top: 1px solid var(--navigation-button-color);
   border-right: 1px solid var(--navigation-button-color);
+  position: absolute;
+  right: 0;
 }
 
 .recording.head::before {
   content: var(--recording-text-visibility);
-  margin-right: 25px;
   color: var(--accent-color);
 }
 
@@ -93,16 +100,18 @@
 /*Main*/
 .list-style-off {
   list-style: none;
-}
-
-.article-card {
-  padding: none;
+  padding: 0;
 }
 
 .section-title {
   font-size: 18px;
   font-weight: var(--section-title-weight);
   color: var(--accent-color);
+}
+
+.section-subtitle {
+  color: var(--section-title-color);
+  background-color: var(--accent-color);
 }
 
 .article-title {
@@ -117,7 +126,23 @@
 
 .article-text {
   font-size: 18px;
+  line-height: 23.4px;
   color: var(--text-color);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  "sunset" 
+  "ice-cream" 
+  "tape" 
+  "books" 
+  "street";
+}
+
+.grid-image {
+  max-width: min(100%, 375px);
+  align-self: center;
 }
 
 
