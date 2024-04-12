@@ -115,6 +115,7 @@
 
 .title-decor {
   grid-area: header-title;
+  align-self: end;
   color: var(--main-title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 95.7px;
@@ -148,7 +149,7 @@
   left: -10px;
   right: -10px; 
   bottom: -10px;
-  background-color: var(--page-background-color);
+  /*background-color: var(--page-background-color);*/
   z-index: -1; 
 } 
 
