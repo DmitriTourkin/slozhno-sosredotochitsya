@@ -11,7 +11,7 @@
   --page-background-color: #fdf1f7;
   --navigation-button-color: #353430;
   --head-background-image: url('../images/cover-image-light.png');
-  --recording-text-visibility: "";
+  --recording-text-color: transparent;
 }
 
 @media(prefers-color-scheme: light) {
@@ -23,7 +23,7 @@
     --page-background-color: #fdf1f7;
     --navigation-button-color: #353430;
     --head-background-image: url('../images/cover-image-light.png');
-    --recording-text-visibility: "";
+    --recording-text-color: transparent;
   }
 }
   /* сохраните этот селектор в приведённом виде.

@@ -14,5 +14,5 @@
   --accent-shadow: 4px 4px 0 var(--accent-color);
   --navigation-button-color: #ff0070;
   --head-background-image: url('../images/cover-image-dark.png');
-  --recording-text-visibility: 'REC';
+  --recording-text-color: #ff0070;
 }
