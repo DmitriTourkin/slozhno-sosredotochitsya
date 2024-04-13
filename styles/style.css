@@ -429,7 +429,7 @@
 }
 
 .section-title {
-  color: var(--accent-color);
+  color: var(--main-section-title-color);
   font-weight: var(--section-title-weight);
   font-size: 18px;
 }
