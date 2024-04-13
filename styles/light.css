@@ -10,7 +10,7 @@
   --text-color: #353430;
   --page-background-color: #fdf1f7;
   --navigation-button-color: #353430;
-  --head-background-image: url('../images/cover-image-light.png');
+  --header-background-image: url('../images/cover-image-light.png');
   --recording-text-color: transparent;
 }
 
@@ -23,7 +23,7 @@
     --text-color: #353430;
     --page-background-color: #fdf1f7;
     --navigation-button-color: #353430;
-    --head-background-image: url('../images/cover-image-light.png');
+    --header-background-image: url('../images/cover-image-light.png');
     --recording-text-color: transparent;
   }
 }
