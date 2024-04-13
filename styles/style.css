@@ -139,10 +139,8 @@
 }
 
 .header__theme-menu-button:hover {
-  /*border: 1px solid rgba(var(--navigation-button-color), .4);*/
   border: 1px solid var(--hover-navigation-button-color);
   font-family: inherit;
-
 }
 
 .header__theme-menu-button_active {
@@ -184,12 +182,16 @@
 } 
 
 .first-section {
-  padding-block-start: 10px;
+  padding-block-start: 20px;
   margin-block-start: 10px;
   margin-block-end: 50px;
 }
 
-.section-separation {
+.second-section {
+  margin-block-end: 45px;
+}
+
+.third-section {
   margin-block-end: 50px;
 }
 
@@ -202,7 +204,21 @@
 .images-grid-container {
   display: grid;
   grid-template-columns: 1;
+  grid-template-areas: 
+  "sunset" 
+  "ice-cream" 
+  "tape" 
+  "books" 
+  "street";
   row-gap: 10px;
+  justify-items: center;
+}
+
+.grid-element {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .tips-flex-section {
@@ -225,6 +241,7 @@
 }
 
 .section-subtitle {
+  font-size: 18px;
   color: var(--section-title-color);
   background-color: var(--accent-color);
 }
@@ -251,15 +268,21 @@
   color: var(--text-color);
 } 
 
- .grid-container {
-  display: grid;
-  width: 100%;
-  grid-template-areas: 
-  "sunset" 
-  "ice-cream" 
-  "tape" 
-  "books" 
-  "street";
+.text-link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.text-link:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.text-link:focus{
+  outline: none;
+}
+
+.text-link:focus-visible {
+  border: 1px solid var(--text-color);
 }
 
 .grid-image {
