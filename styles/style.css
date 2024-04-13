@@ -117,7 +117,7 @@
 }
 
 .title-decor {
-  grid-area: "header-title";
+  grid-area: header-title;
   align-self: center;
   margin-block-end: 10px;
 }
