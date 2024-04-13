@@ -17,12 +17,12 @@
   min-height: 668px;
 }
 
-/* Header */
+/* Header */g
 
 .decorated-zone {
   position: relative;
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-areas:
     "theme-change"
