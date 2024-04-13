@@ -31,15 +31,6 @@
     "header-text";
 }
 
-/* .recording {
-  display: flex;
-  width: 25px;
-  height: 25px;
-  font-size: 18px;
-  background-color: transparent;
-  position: absolute;
-} */
-
 .recording {
   display: flex;
   gap: 10px;
@@ -50,14 +41,6 @@
   position: absolute;
 }
 
-/* .recording.head {
-  border-top: 1px solid var(--navigation-button-color);
-  border-right: 1px solid var(--navigation-button-color);
-  right: 0;
-  margin-top: 10px;
-  margin-right: 10px;
-} */
-
 .recording.head {
   border-top: 1px solid var(--navigation-button-color);
   border-right: 1px solid var(--navigation-button-color);
@@ -66,31 +49,13 @@
   margin-right: 10px;
 }
 
-/* .recording.head::before {
-  content: var(--recording-text-visibility);
-  color: var(--accent-color);
-  text-transform: uppercase;
-} */
-
-/* .recording.head::after { 
-  content: "";
-  inline-size: 9px;
-  block-size: 9px;
-  background-color: var(--accent-color);
-  box-shadow: 0 0 2px 2px var(--accent-color);
-  border-radius: 50%;
-  inset-inline-start: 42px;
-  inset-block-end: 7px;
-  align-self: center;
-} */
-
 .recording.head::before {
   content: "rec";
   color: var(--recording-text-color);
   text-transform: uppercase;
   position: absolute;
   top: 50%;
-  right: 27px; /* Расположение текста слева от квадрата */
+  right: 27px; 
   transform: translateY(-50%);
 }
 
@@ -100,7 +65,7 @@
   text-transform: uppercase;
   position: absolute;
   top: 50%;
-  right: 27px; /* Расположение текста слева от квадрата */
+  right: 27px; 
   transform: translateY(-50%);
 }
 
@@ -117,11 +82,8 @@
   transform: translate(-50%, -50%);
 } 
 
-.footer ~ .recording.head::after {
-  content: "";
-  background-color: transparent;
-  color: transparent;
-  box-shadow: 0;
+.footer .recording.head::after {
+  display: none;
 }
 
 .recording.foot {
