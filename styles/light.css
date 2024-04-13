@@ -4,7 +4,8 @@
   --section-title-color: #353430;
   --text-color: #353430;
   --page-background-color: #fdf1f7;
-  --navigation-button-color: #353430;
+  --navigation-button-color: rgb(53, 52, 48);
+  --hover-navigation-button-color: rgba(50, 49, 45, 0.4);
   --header-background-image: url('../images/cover-image-light.png');
   --recording-text-color: transparent;
 }
@@ -17,7 +18,8 @@
     --section-title-color: #353430;
     --text-color: #353430;
     --page-background-color: #fdf1f7;
-    --navigation-button-color: #353430;
+    --navigation-button-color: rgb(53, 52, 48);
+    --hover-navigation-button-color: rgba(50, 49, 45, 0.4);
     --header-background-image: url('../images/cover-image-light.png');
     --recording-text-color: transparent;
   }

@@ -139,9 +139,10 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(var(--navigation-button-color), .4);
-  color: var(--navigation-button-color);
+  /*border: 1px solid rgba(var(--navigation-button-color), .4);*/
+  border: 1px solid var(--hover-navigation-button-color);
   font-family: inherit;
+
 }
 
 .header__theme-menu-button_active {
