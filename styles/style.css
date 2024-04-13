@@ -118,8 +118,13 @@
 
 .title-decor {
   grid-area: header-title;
-  align-self: center;
+  align-self: end;
   margin-block-end: 10px;
+  color: var(--main-title-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 95.7px;
+  text-transform: lowercase;
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .header__theme-menu {
@@ -181,16 +186,6 @@
   max-width: 70px;
   max-height: 26px;
   border: 1px solid var(--navigation-button-color);
-}
-
-.title-decor {
-  grid-area: header-title;
-  align-self: end;
-  color: var(--main-title-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 95.7px;
-  text-transform: lowercase;
-  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 @media (width >= 768px) {
@@ -291,6 +286,10 @@
   padding-block-end: 20px;
 }
 
+.third-title {
+  padding-block-end: 20px;
+}
+
 @media (width >= 768px) {
   .second-section {
     margin-block-end: 77px;
@@ -353,7 +352,7 @@
   "tape" 
   "books" 
   "street";
-  justify-items: center;
+  justify-content: center;
   row-gap: 10px;
 }
 
@@ -408,7 +407,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
   }
-}
+};
 
 .grid-element {
   display: flex;
@@ -454,8 +453,9 @@
 }
 
 @media (width >= 1024px) {
-  .article-card.second-section {
+  .article-card .sec {
     min-width: 315px;
+    margin-block-end: 0;
   }
 }
 
@@ -484,7 +484,7 @@
   border-bottom: 1px solid var(--text-color);
 }
 
-.text-link:focus{
+.text-link:focus {
   outline: none;
 }
 
