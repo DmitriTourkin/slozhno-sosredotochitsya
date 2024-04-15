@@ -333,8 +333,7 @@
     grid-column-start: 0;
     grid-column-start: 1;
     grid-row-start: 1;
-    min-width: 236px;
-    max-width: 316px;
+    max-width: 30%;
     grid-auto-flow: row;
     padding: 0;
   }
@@ -576,4 +575,3 @@
   text-shadow: 2px 2px 0 var(--accent-color);
   margin: 0 auto;
 }
-
