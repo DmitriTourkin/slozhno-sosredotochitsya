@@ -27,7 +27,7 @@
 
 }
 
-@media (width >= 375px) and (width < 768px) {
+@media (width > 375px) and (width < 768px) {
   .header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -48,6 +48,16 @@
       "theme-change theme-change theme-change"
       "header-title header-title header-title"
       ". . header-text";
+  }
+}
+
+@media (width < 588px) {
+  .title-decor {
+    padding-block-start: 10px;
+  }
+
+  .header-text {
+    margin-block-end: 10px;
   }
 }
 
