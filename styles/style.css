@@ -350,6 +350,12 @@
   }
 }
 
+@media (width >= 1024px) {
+  .tips-list.why {
+    margin-inline-start: 7px;
+  }
+}
+
 
 .second-section {
   display: flex;
@@ -409,9 +415,23 @@
 
   .section-title.third-title {
     min-width: 236px;
-    max-width: 30%;
   }
 }
+
+
+@media (width >= 1024px) {
+  .third-section {
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+    margin-block-end: 80px;
+  }
+
+  .section-title.third-title {
+    min-width: 32%;
+  }
+}
+
 
 @media (width >= 1024px) {
   .third-section {
