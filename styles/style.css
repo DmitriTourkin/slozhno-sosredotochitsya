@@ -294,7 +294,7 @@
 .first-section {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   margin-block-start: 10px;
   margin-block-end: 50px;
   padding-block-start: 20px;
@@ -352,7 +352,7 @@
 .second-section {
   display: flex;
   flex-direction: column;
-  margin-block-end: 45px;
+  margin-block-end: 48px;
 }
 
 @media (width >= 1024px) {
