@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light"> 
-    <link rel="icon" href="./images/favicon.ico" type="image/icon">
-    <link rel="icon" href="./images/favicon.svg" type="image/svg">
+    <link rel="icon" href="./images/favicon.ico" type="image/icon" sizes="any">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" sizes="any">
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" sizes="any">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css"> 
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/globals.css">
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
@@ -57,7 +58,11 @@
             <article class="article-card">
               <h3 class="article-title">Многозадачность</h3>
               <p class="article-text">Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует. Исследователи 
-                <a href="index.html" class="text-link underline-link" target="_blank">выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.</p>
+                <a 
+                  href="https://dana.org/article/multicosts-of-multitasking/" 
+                  class="text-link" 
+                  target="_blank"
+                >выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.</p>
             </article>
           </li>
           <li>
@@ -113,7 +118,7 @@
                   <h4 class="article-title tip-style">Прогуляйтесь</h4>
                   <p class="article-text">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент 
                     <a 
-                      href="index.html"
+                      href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
                       class="text-link"
                       target="_blank"
                       >показал</a>, 
@@ -138,30 +143,16 @@
       <section class="images-section">
         <h2 class="section-subtitle">А можно в картинках?</h2>
         <div class="images-grid-container">
-          <div class="grid-element item-0">
-            <img class="grid-image" src="./images/sunset.png" alt="Закат. Солнце слегка скрывается за горами" loading="lazy">
-          </div>
-          <div class="grid-element item-1">
-            <img class="grid-image" src="./images/ice-cream.png" alt="Мороженное из шариков в форме ярких зверюшек" loading="lazy">
-          </div>
-          <div class="grid-element item-2">
-            <img class="grid-image" src="./images/tape.png" alt="Кассета в нежных тонах крупным планом" loading="lazy">
-          </div>
-          <div class="grid-element item-3">
-            <img class="grid-image" src="./images/books.png" alt="Стопка красочный книг со стоящей на ней чашкой" loading="lazy">
-          </div>
-          <div class="grid-element item-4">
-            <img class="grid-image" src="./images/street.png" alt="Улица в нежный фиолетовых тонах" loading="lazy">
-          </div>
+          <img class="grid-image sunset-image" src="./images/sunset.png" alt="Закат. Солнце слегка скрывается за горами" loading="lazy">
+          <img class="grid-image ice-cream-image" src="./images/ice-cream.png" alt="Мороженое из шариков в форме ярких зверюшек" loading="lazy">
+          <img class="grid-image tape-image" src="./images/tape.png" alt="Кассета в нежных тонах крупным планом" loading="lazy">
+          <img class="grid-image books-image" src="./images/books.png" alt="Стопка красочный книг со стоящей на ней чашкой" loading="lazy">
+          <img class="grid-image street-image" src="./images/street.png" alt="Улица в нежный фиолетовых тонах" loading="lazy">
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="recording head "></div>
-      <div class="recording foot"></div>
-      <div class="footer-title-container">
-        <span class="title-decor footer-title">focus</span>
-      </div>
+      <h2 class="title-decor footer-title">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>
