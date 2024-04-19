@@ -21,7 +21,6 @@
   inline-size: 100%;
   block-size: 100vh;
   min-block-size: 668px;
-
 }
 
 @media (width > 375px) and (width < 768px) {
@@ -147,7 +146,6 @@
     margin-block-end: 20px;
   }
 }
-
 
 @media (width >= 768px) {
   .decorated-zone::before {
@@ -348,7 +346,6 @@
   }
 }
 
-
 .what-section {
   display: flex;
   flex-direction: column;
@@ -427,7 +424,6 @@
     gap: 20px;
   }
 }
-
 
 .images-grid-container {
   display: grid;
